@@ -95,6 +95,16 @@ h2 {
   color: var(--text);
 }
 
+.info-list a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.info-list a:hover,
+.info-list a:focus-visible {
+  text-decoration: underline;
+}
+
 .badges {
   display: flex;
   flex-wrap: wrap;
